@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "SpeakIt",
+  "description": "Let Google Chrome say any text you click on!",
+  "version": "1.0",
+  "background": {
+    "scripts": ["eventPage.js"],
+    "persistent": false
+  },
+  "icons": {
+    "128": "icon128.png",
+    "48": "icon48.png",
+    "16": "icon16.png"
+  },
+  "permissions": [
+    "contextMenus",
+    "tts"
+  ]
+}
